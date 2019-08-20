@@ -1,3 +1,0 @@
-# fantexiAI
-fantexiAI
-readme
