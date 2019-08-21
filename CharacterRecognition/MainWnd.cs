@@ -53,7 +53,7 @@ namespace CharacterRecognition
                 statusLabelOCR.Text = "Analyzing invoice image...";
                 Task.Run(() =>
                 { 
-                    using (var img = new Image<Bgr, byte>(path))  
+                    using (var img = new Image<Bgr, byte>(path))   
                     {
                         string tessdata = Environment.GetEnvironmentVariable("EMGU_ROOT") + @"D:\Emgu\emgucv-windesktop_x64-cuda 3.2.0.2682\bin\tessdata\";
                         using (var ocrProvider = new Tesseract("", "eng", OcrEngineMode.LstmOnly))
