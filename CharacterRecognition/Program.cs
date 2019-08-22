@@ -18,6 +18,7 @@ namespace CharacterRecognition
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWnd());
             //ggggggg
+            //hhhhhh
         }
     }
 }
